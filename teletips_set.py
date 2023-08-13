@@ -29,8 +29,8 @@ TELETIPS_MAIN_MENU_BUTTONS = [
             ],
             [
                 InlineKeyboardButton('👥 SUPPORT', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/teletipsofficialchannel'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/teIetips')
+                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/JujutsuHighNetwork'),
+                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/SexyNano')
             ],
             [
                 InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
@@ -67,7 +67,7 @@ async def callback_query(client: Client, query: CallbackQuery):
     elif query.data=="GROUP_CALLBACK":
         TELETIPS_GROUP_BUTTONS = [
             [
-                InlineKeyboardButton("TeLe TiPs Chat [EN]", url="https://t.me/teletipsofficialontopicchat")
+                InlineKeyboardButton("JujutsuHighNetwork", url="https://t.me/JujutsuHighNetwork")
             ],
             [
                 InlineKeyboardButton("⬅️ BACK", callback_data="START_CALLBACK"),
@@ -107,8 +107,8 @@ async def callback_query(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton('👥 SUPPORT', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/teletipsofficialchannel'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/teIetips')
+                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/JujutsuHighNetwork'),
+                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/SexyNano')
             ],
             [
                 InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")

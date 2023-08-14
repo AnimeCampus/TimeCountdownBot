@@ -19,7 +19,7 @@ bot=Client(
     bot_token = "6469081756:AAHstqMdBk5PjbfjcXZ1y5bptZqKBqhe-nU"
 )
 
-footer_message = os.environ["FOOTER_MESSAGE"]
+footer_message = "Time Starting soon"
 
 stoptimer = False
 
